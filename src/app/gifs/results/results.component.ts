@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GifsService } from '../services/gifs.service';
 
 @Component({
   selector: 'app-results',
@@ -6,11 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class ResultsComponent implements OnInit {
+export class ResultsComponent {
 
-  constructor() { }
 
-  ngOnInit(): void {
+  get resultados(){
+    return this.gisfService.resultados;
   }
+
+  constructor( private gisfService : GifsService) { }
+
 
 }
