@@ -32,17 +32,14 @@ GifApp es una aplicación web que permite buscar y visualizar GIFs animados util
 Instala las dependencias:
 
 bash
-Copiar
-Editar
 npm install
+
 🚧 Actualización de Angular
 Para actualizar tu proyecto a Angular 19, sigue estos pasos:
 
 Asegúrate de tener la versión más reciente de Angular CLI:
 
 ```bash
-Copiar
-Editar
 npm install -g @angular/cli@19
 ```
 Actualiza las dependencias de Angular en tu proyecto:
@@ -55,8 +52,7 @@ ng update @angular/core@19 @angular/cli@19
 Si encuentras errores relacionados con versiones mayores, actualiza una versión a la vez:
 
 ```bash
-Copiar
-Editar
+
 ng update @angular/core@13
 ng update @angular/core@14
 ng update @angular/core@15
@@ -69,8 +65,6 @@ ng update @angular/core@19
 Para iniciar el servidor de desarrollo con HMR habilitado:
 
 ```bash
-Copiar
-Editar
 ng serve
 
 La aplicación estará disponible en http://localhost:4200.
@@ -79,15 +73,13 @@ La aplicación estará disponible en http://localhost:4200.
 Para ejecutar las pruebas unitarias:
 
 ```bash
-Copiar
-Editar
+
 ng test
 ```
 
 Para ejecutar las pruebas end-to-end:
 ```bash
-Copiar
-Editar
+
 ng e2e
 ```
 📄 Licencia
