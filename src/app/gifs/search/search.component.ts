@@ -2,10 +2,10 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { GifsService } from '../services/gifs.service';
 
 @Component({
-  selector: 'app-search',
-  templateUrl: './search.component.html',
-  styles: [
-  ]
+    selector: 'app-search',
+    templateUrl: './search.component.html',
+    styles: [],
+    standalone: false
 })
 export class SearchComponent  {
 
