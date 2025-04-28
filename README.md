@@ -40,21 +40,21 @@ Para actualizar tu proyecto a Angular 19, sigue estos pasos:
 
 Asegúrate de tener la versión más reciente de Angular CLI:
 
-´´´bash
+```bash
 Copiar
 Editar
 npm install -g @angular/cli@19
-´´´
+```
 Actualiza las dependencias de Angular en tu proyecto:
 
-´´´bash
+```bash
 Copiar
 Editar
 ng update @angular/core@19 @angular/cli@19
-´´´
+```
 Si encuentras errores relacionados con versiones mayores, actualiza una versión a la vez:
 
-´´´bash
+```bash
 Copiar
 Editar
 ng update @angular/core@13
@@ -64,32 +64,32 @@ ng update @angular/core@16
 ng update @angular/core@17
 ng update @angular/core@18
 ng update @angular/core@19
-´´´
+```
 🧪 Desarrollo
 Para iniciar el servidor de desarrollo con HMR habilitado:
 
-´´´bash
+```bash
 Copiar
 Editar
 ng serve
 
 La aplicación estará disponible en http://localhost:4200.
-´´´
+```
 🧪 Pruebas
 Para ejecutar las pruebas unitarias:
 
-´´´bash
+```bash
 Copiar
 Editar
 ng test
-´´´
+```
 
 Para ejecutar las pruebas end-to-end:
-´´´bash
+```bash
 Copiar
 Editar
 ng e2e
-´´´
+```
 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
