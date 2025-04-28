@@ -45,8 +45,6 @@ npm install -g @angular/cli@19
 Actualiza las dependencias de Angular en tu proyecto:
 
 ```bash
-Copiar
-Editar
 ng update @angular/core@19 @angular/cli@19
 ```
 Si encuentras errores relacionados con versiones mayores, actualiza una versión a la vez:
