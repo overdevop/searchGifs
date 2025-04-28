@@ -82,5 +82,3 @@ ng e2e
 ```
 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
-
-¡Espero que este archivo README.md sea útil para tu proyecto! Si necesitas realizar alguna modificación o agregar información adicional, no dudes en decírmelo.
