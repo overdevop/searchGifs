@@ -1,27 +1,96 @@
 # GifApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+GifApp es una aplicación web que permite buscar y visualizar GIFs animados utilizando la API de Giphy. Desarrollada con Angular 19 y Node.js 20, esta aplicación proporciona una interfaz sencilla y rápida para explorar una amplia variedad de GIFs.
 
-## Development server
+## 🚀 Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Búsqueda de GIFs en tiempo real desde la API de Giphy.
+- Interfaz de usuario moderna y responsiva.
+- Visualización de resultados con carga perezosa (lazy loading).
+- Soporte para Hot Module Replacement (HMR) durante el desarrollo.
 
-## Code scaffolding
+## 🛠 Tecnologías
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend:** Angular 19
+- **Backend:** Node.js 20
+- **Estilos:** Bootstrap 5.0.1
+- **Bundler:** Vite (integrado por Angular CLI)
 
-## Build
+## 📦 Requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js >= 20
+- npm >= 8
+- Angular CLI >= 19
 
-## Running unit tests
+## 📥 Instalación
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clona el repositorio:
 
-## Running end-to-end tests
+   ```bash
+   git clone https://github.com/overdevop/searchGifs.git
+   cd searchGifs
+Instala las dependencias:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+bash
+Copiar
+Editar
+npm install
+🚧 Actualización de Angular
+Para actualizar tu proyecto a Angular 19, sigue estos pasos:
 
-## Further help
+Asegúrate de tener la versión más reciente de Angular CLI:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+´´´bash
+Copiar
+Editar
+npm install -g @angular/cli@19
+´´´
+Actualiza las dependencias de Angular en tu proyecto:
+
+´´´bash
+Copiar
+Editar
+ng update @angular/core@19 @angular/cli@19
+´´´
+Si encuentras errores relacionados con versiones mayores, actualiza una versión a la vez:
+
+´´´bash
+Copiar
+Editar
+ng update @angular/core@13
+ng update @angular/core@14
+ng update @angular/core@15
+ng update @angular/core@16
+ng update @angular/core@17
+ng update @angular/core@18
+ng update @angular/core@19
+´´´
+🧪 Desarrollo
+Para iniciar el servidor de desarrollo con HMR habilitado:
+
+´´´bash
+Copiar
+Editar
+ng serve
+
+La aplicación estará disponible en http://localhost:4200.
+´´´
+🧪 Pruebas
+Para ejecutar las pruebas unitarias:
+
+´´´bash
+Copiar
+Editar
+ng test
+´´´
+
+Para ejecutar las pruebas end-to-end:
+´´´bash
+Copiar
+Editar
+ng e2e
+´´´
+📄 Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+¡Espero que este archivo README.md sea útil para tu proyecto! Si necesitas realizar alguna modificación o agregar información adicional, no dudes en decírmelo.
